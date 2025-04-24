@@ -1,0 +1,56 @@
+
+---
+
+## 🔗 How to Run the Project Locally
+
+1. **Install XAMPP** and start `Apache` + `MySQL`
+2. Place the project folder (`GUSTO`) into `C:/xampp/htdocs/`
+3. Open [phpMyAdmin](http://localhost/phpmyadmin) and:
+   - Create a database called `cafe_gusto`
+   - Import the SQL script (`SQL.sql.txt`)
+4. Open your browser and go to:  
+   👉 `http://localhost/GUSTO/interface.html`
+
+---
+
+## ✅ To Place an Order:
+
+- Navigate through the cuisines
+- Add items to your cart
+- Go to the cart page
+- Enter your name and table number
+- Click **Place Order** and **Submit to Database**
+
+Orders will be saved to:
+- `orders` table in MySQL
+- `cart.txt` file in the project folder
+
+---
+
+## 🔒 Admin Access
+
+To view orders, open:  
+👉 `http://localhost/GUSTO/admin_panel.php`
+
+---
+
+## ✨ Future Enhancements
+
+- User login and authentication
+- Real-time kitchen dashboard
+- Online payment gateway
+- Responsive admin dashboard
+- Order status tracking
+
+---
+
+## 👨‍💻 Contributors
+
+- [Bharath]
+
+
+---
+
+## 📜 License
+
+This project is created for academic purposes. You are free to use and modify it with attribution.
